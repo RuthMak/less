@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background: grey;
+  }
+  nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #ebb00e;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    height: 60px;
+    line-height: 50px;
+
+  }
+  footer {
+    background: #fcf6f0;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    margin-top: auto;
+  }
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 80px;
+    padding: 20px;
+
+  }
+  .box-red {
+    background-color: #ff0000;
+    width: 100 px;
+    height: 100 px;
+    border-radius: 8px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 18px;
+    margin: 10px;
+  }
+  .box-blue {
+    background-color: #0000ff;
+    width: 200 px;
+    height: 200 px;
+    border-radius: 8px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 18px;
+    margin: 10px;
+  }
+  .box-green {
+    background-color: #008000;
+    width: 250 px;
+    height: 250 px;
+    border-radius: 8px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 18px;
+    margin: 10px;
+  }
+  .box-purple {
+    background-color: #800080;
+    width: 50 px;
+    height: 50 px;
+    border-radius: 8px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 18px;
+    margin: 10px;
+  }
+  
