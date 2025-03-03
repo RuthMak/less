@@ -14,10 +14,9 @@ body {
     width: 100%;
     background: #ebb00e;
     color: white;
-    padding: 10px 0;
     text-align: center;
     height: 60px;
-    line-height: 50px;
+    line-height: 50px;  
 
   }
   footer {
@@ -34,58 +33,41 @@ body {
     flex-wrap: wrap;
     margin-top: 80px;
     padding: 20px;
+    gap: 20px;
+    width: 100%;
+
 
   }
   .box-red {
     background-color: #ff0000;
-    width: 100 px;
-    height: 100 px;
+    width: 100px;
+    height: 100px;
     border-radius: 8px;
     border: 2px solid black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    font-size: 18px;
     margin: 10px;
   }
   .box-blue {
     background-color: #0000ff;
-    width: 200 px;
-    height: 200 px;
+    width: 200px;
+    height: 200px;
     border-radius: 8px;
     border: 2px solid black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    font-size: 18px;
     margin: 10px;
   }
   .box-green {
     background-color: #008000;
-    width: 250 px;
-    height: 250 px;
+    width: 250px;
+    height: 250px;
     border-radius: 8px;
     border: 2px solid black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    font-size: 18px;
     margin: 10px;
   }
   .box-purple {
     background-color: #800080;
-    width: 50 px;
-    height: 50 px;
+    width: 50px;
+    height: 50px;
     border-radius: 8px;
     border: 2px solid black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    font-size: 18px;
     margin: 10px;
   }
   
